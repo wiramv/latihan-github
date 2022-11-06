@@ -1,3 +1,9 @@
 body{
     text-align: center;
 }
+
+body .halo-semua{
+    text-align: left;
+    font-weight: 600;
+    color: #333;
+}
