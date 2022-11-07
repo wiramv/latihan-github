@@ -10,3 +10,9 @@ const hitung = () => {
 }
 
 
+const resetData = () => {
+    if(inputData.value && hasilData.textContent){
+        inputData.value = ''
+        hasilData.textContent = ''
+    }
+}
