@@ -1,9 +1,32 @@
-body{
-    text-align: center;
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-body .halo-semua{
-    text-align: left;
-    font-weight: 600;
-    color: #444;
+.wrapper{
+    width: 600px;
+    margin-inline: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.container input{
+    height: 2rem;
+    padding-inline: 40px;
+}
+
+.container button{
+    width: 50%;
+    margin-inline: auto;
+}
+
+.hasil{
+    text-align: center;
+    font-size: 5rem;
 }
